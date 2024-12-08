@@ -1,0 +1,34 @@
+/* General Layout Styles */
+nav {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 20px; /* Add padding to navigation */
+    display: flex;
+    justify-content: center; /* Center the links */
+    gap: 20px; /* Add space between navigation links */
+    border-bottom: 2px solid #ddd; /* Add a bottom border for separation */
+  }
+  
+  /* Navigation Link Styles */
+  nav a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Blue link color */
+    font-weight: bold; /* Bold font */
+    font-size: 1.1rem; /* Slightly larger font size */
+    padding: 5px 10px; /* Add padding around links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+  }
+  
+  /* Hover Effect for Links */
+  nav a:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* White text on hover */
+  }
+  
+  /* Main Content Area Styles */
+  div {
+    padding: 20px; /* Add padding around the main content */
+    font-family: Arial, sans-serif; /* Clean font style */
+    line-height: 1.6; /* Improve readability */
+  }
+  
